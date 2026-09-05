@@ -39,7 +39,17 @@ The game doesn't explicitly add "screen tearing support" hence causing V-Sync Of
 > Try out each method & see what works for you!
 
 ### Disabling V-Sync at the driver level.
+
+> [!CAUTION]
+> This may not work if your GPU configuration software doesn't expose controls for V-Sync.
+
 You may consider disabling V-Sync at the driver for Intel, AMD & NVIDIA GPUs.
+
 - Open your GPU's configuration software i.e NVIDIA App, AMD Software or Intel Arc Control.
+
 - Find the configuration page for V-Sync.
+ 
 - You disable V-Sync globally or for Minecraft: Bedrock Edition specifically.
+
+### Using clients to disable V-Sync.
+If you are using a client then consider availing their 'V-Sync Off' feature.
