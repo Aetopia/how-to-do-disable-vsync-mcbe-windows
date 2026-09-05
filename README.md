@@ -79,7 +79,7 @@ MCBE DirectX VSync Fixer is a standalone mod that fixes the game's V-Sync implem
 
 This is done by adding "screen tearing support" as per [Microsoft's documentation](https://learn.microsoft.com/windows/win32/direct3ddxgi/variable-refresh-rate-displays).
 
-- Follow the install instructions as [mentioned here](https://github.com/Aetopia/MCBE.DirectX.VSync.Fixer).
+- Follow the install instructions as [mentioned here](https://github.com/Aetopia/MCBE.DirectX.VSync.Fixer#usage).
 
 - Disable `gfx_vsync` by editing all instances of `options.txt` in the game's data folder.
     - The mod uses this to control V-Sync hence the user remains in control.
