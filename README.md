@@ -72,5 +72,14 @@ If you are using a client then consider availing their 'V-Sync Off' feature.
 > [!CAUTION]
 > Consider this as a last reliable resort which will work regardless of hardware.
 
+> [!NOTE]
+> - This mod can be used to fix [buggy V-Sync Off implementations in clients](#using-clients-to-disable-v-sync) also.
+
 MCBE DirectX VSync Fixer is a standalone mod that fixes the game's V-Sync implementation.
-- This is done by adding "screen tearing support" as per [Microsoft's documentation](https://learn.microsoft.com/windows/win32/direct3ddxgi/variable-refresh-rate-displays).
+
+This is done by adding "screen tearing support" as per [Microsoft's documentation](https://learn.microsoft.com/windows/win32/direct3ddxgi/variable-refresh-rate-displays).
+
+- Follow the install instructions as [mentioned here](https://github.com/Aetopia/MCBE.DirectX.VSync.Fixer).
+
+- Disable `gfx_vsync` by editing all instances of `options.txt` in the game's data folder.
+    - The mod uses this to control V-Sync hence the user remains in control.
