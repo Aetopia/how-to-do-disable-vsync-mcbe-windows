@@ -54,6 +54,10 @@ You may consider disabling V-Sync at the driver for Intel, AMD & NVIDIA GPUs.
 
 ### Using clients to disable V-Sync.
 
+> [!CAUTION]
+> - Sometimes, clients might not be able to disable V-Sync correctly.
+> - Consider disabling V-Sync via [your GPU's configuration software](#disabling-v-sync-at-the-driver-level).
+
 If you are using a client then consider availing their 'V-Sync Off' feature.
 
 - Launch your preferred client via their launcher.
@@ -61,10 +65,6 @@ If you are using a client then consider availing their 'V-Sync Off' feature.
 - Go into client's settings or configuration section.
 
 - Find the relevant option for disabling V-Sync.
-
-> [!CAUTION]
-> - Sometimes, clients might not be able to disable V-Sync correctly.
-> - Consider disabling V-Sync via [your GPU's configuration software](#disabling-v-sync-at-the-driver-level).
 
 
 ### Using a dedicated mod for disabling V-Sync.
