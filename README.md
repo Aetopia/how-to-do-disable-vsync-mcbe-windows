@@ -41,7 +41,8 @@ The game doesn't explicitly add "screen tearing support" hence causing V-Sync Of
 ### Disabling V-Sync at the driver level.
 
 > [!CAUTION]
-> This may not work if your GPU configuration software doesn't expose controls for V-Sync.
+> - This method may not work if your device is a laptop & has a iGPU + dGPU.
+> - This may not work if your GPU configuration software doesn't expose controls for V-Sync.
 
 You may consider disabling V-Sync at the driver for Intel, AMD & NVIDIA GPUs.
 
@@ -52,4 +53,24 @@ You may consider disabling V-Sync at the driver for Intel, AMD & NVIDIA GPUs.
 - You disable V-Sync globally or for Minecraft: Bedrock Edition specifically.
 
 ### Using clients to disable V-Sync.
+
 If you are using a client then consider availing their 'V-Sync Off' feature.
+
+- Launch your preferred client via their launcher.
+
+- Go into client's settings or configuration section.
+
+- Find the relevant option for disabling V-Sync.
+
+> [!CAUTION]
+> - Sometimes, clients might not be able to disable V-Sync correctly.
+> - Consider disabling V-Sync via [your GPU's configuration software](#disabling-v-sync-at-the-driver-level).
+
+
+### Using a dedicated mod for disabling V-Sync.
+
+> [!CAUTION]
+> Consider this as a last reliable resort which will work regardless of hardware.
+
+MCBE DirectX VSync Fixer is a standalone mod that fixes the game's V-Sync implementation.
+- This is done by adding "screen tearing support" as per [Microsoft's documentation](https://learn.microsoft.com/windows/win32/direct3ddxgi/variable-refresh-rate-displays).
